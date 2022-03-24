@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <title>Landing Page Responsive</title>
+    <!--Internal CSS Start-->
+    <style>
+        @media (max-width: 576px) {
+            .text-head-mobile {
+                font-size: 20px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            .text-mobile{
+                text-align: center;
+                margin-top: 10px;
+            }
+            .btn-primary {
+                width: 100%;
+            }
+            .logo-mobile{
+                width: 40%;
+            }
+        }
+    </style>
+    <!--Internal CSS End-->
+</head>
+
+<body>
+    <!-- NavBar Start -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <img class="logo-mobile" width="12%" src="https://www.freepnglogos.com/uploads/perfume/perfume-logo-tigerlily-perfume-pop-shop-launch-party-love-luxe-27.png" alt="Logo tigerlily" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Services <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#">Details</a>
+                    <a class="nav-item nav-link active" href="#">Features</a>
+                    <a class="nav-item nav-link active" href="#">Drop</a>
+                    <button type="button" class="btn btn-primary w-50 ml-3">Sign In</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- NavBar End -->
+
+    <!-- Jumbotron Start -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row" style="flex-wrap: wrap-reverse">
+                <div class="col-sm-6 m-auto">
+                    <h1 class="text-head-mobile">Find All Your Products With Us At The Best Prices</h1>
+                    <p class="text-mobile">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <div class="btn btn-primary">View Products</div>
+                </div>
+                <div class="col-sm-6">
+                    <img class="w-100" src="model3.png" alt="Picture" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jumbotron End -->
+
+
+</body>
+
+</html>
